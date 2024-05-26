@@ -3,11 +3,11 @@
 
 A backend server for uploading data related to trade in the csv format and calculating balance according to timestamp.
 
-API 1 : 
+API 1 (/upload-csv) : 
 
 Takes csv file and uploads the data to the database after parsing it.
 
-API 2 : 
+API 2 (/balance) : 
 
 Returns the asset-wise balance of the account at any given timestamp. 
 
@@ -49,5 +49,13 @@ Start the server
 
 ```bash
   node server.js
+```
+
+
+## Deployment
+
+The deployed link for the backend sever : 
+```
+https://trade-parsing-and-balance-calculator.vercel.app
 ```
 
